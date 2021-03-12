@@ -1,0 +1,24 @@
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: test_route
+          uri: https://www.baidu.com
+          predicates:
+            - Query=url,baidu
+
+        - id: qq_route
+          uri: https://www.qq.com
+          predicates:
+            - Query=url,qq
+        - id: provider_route
+          uri: lb://provider
+          predicates:
+            - Path=/api/provider/**
+          filters:
+            - RewritePath=/api/(?<segment>.*),/$\{segment}
+  application:
+    name: gateway
+
+
+# http://localhost:88/api/provider/test/user ==> http://localhost:8000/provider/test/user

@@ -21,3 +21,5 @@ mybatis-plus:
       logic-not-delete-value: 0
 server:
   port: 8000
+  servlet:
+    context-path: /provider

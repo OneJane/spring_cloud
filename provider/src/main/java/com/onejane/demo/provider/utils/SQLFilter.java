@@ -8,7 +8,7 @@
 
 package com.onejane.demo.provider.utils;
 
-import com.atguigu.common.utils.RRException;
+import com.onejane.demo.provider.exception.RRException;
 import org.apache.commons.lang.StringUtils;
 
 /**

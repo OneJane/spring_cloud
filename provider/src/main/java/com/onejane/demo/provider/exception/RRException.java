@@ -6,7 +6,7 @@
  * 版权所有，侵权必究！
  */
 
-package com.atguigu.common.utils;
+package com.onejane.demo.provider.exception;
 
 /**
  * 自定义异常

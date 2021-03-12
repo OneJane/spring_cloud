@@ -10,6 +10,12 @@ spring:
     nacos:
       discovery:
         server-addr: 127.0.0.1:8848
+    alicloud:
+      access-key: LTAITuSh49mMQCi2
+      secret-key: TVac6ND2MmfmVi2hB7nYvpPtzMTUnK
+      oss:
+        endpoint: oss-cn-beijing.aliyuncs.com
+        bucket: onejane-opencv
   jackson:
     date-format: yyyy-MM-dd HH:mm:ss
 mybatis-plus:

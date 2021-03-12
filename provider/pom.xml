@@ -61,6 +61,10 @@
             <artifactId>httpcore</artifactId>
             <version>4.4.12</version>
         </dependency>
+<dependency>
+    <groupId>com.alibaba.cloud</groupId>
+    <artifactId>spring-cloud-starter-alicloud-oss</artifactId>
+</dependency>
     </dependencies>
     <dependencyManagement>
         <dependencies>

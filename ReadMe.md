@@ -1,0 +1,9 @@
+- 配置Nacos为注册中心
+- Nacos多文件/多环境配置
+- 整合Mybatis-Plus
+- Feign远程调用
+- Gateway网关及跨域
+- 整合阿里云上传图片
+- JSR303自定义、分组及全局校验
+- url转二维码生成base64
+- 阿里云盲水印

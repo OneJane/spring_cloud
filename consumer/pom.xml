@@ -57,6 +57,11 @@
             <artifactId>imm20170906</artifactId>
             <version>1.0.0</version>
         </dependency>
+        <dependency>
+            <groupId>org.openpnp</groupId>
+            <artifactId>opencv</artifactId>
+            <version>3.4.2-1</version>
+        </dependency>
     </dependencies>
     <dependencyManagement>
         <dependencies>
